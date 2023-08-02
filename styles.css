@@ -31,8 +31,6 @@
 .foreground
 {
     transform: translateZ(-30px) scale(1.5);
-    
-
 }
 .background,.foreground{
 position: absolute;
@@ -45,6 +43,10 @@ z-index:-1;
 
 
 
+}
+
+.foreground{
+object-fit: contain;
 }
  /* .foreground{
     position: absolute ;
